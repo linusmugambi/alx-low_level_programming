@@ -1,0 +1,3 @@
+ocessor
+#!/bin/bash
+gcc -c $CFILE
