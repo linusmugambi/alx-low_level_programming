@@ -1,23 +1,18 @@
-#include "main.h"
-
-
+#include "main,h"
 /**
- *main - Entry point
- *
- *Return: nothing, return void
- */
+ * main - entry block
+ * @void: no argument
+ * Return: 0
+ **/
+int main(void)
+{
+	char ermias[] = "_putchar";
 
- int main(void)
- {
- _putchar('_');
- _putchar('p');
- _putchar('u');
- _putchar('t');
- _putchar('C');
- _putchar('h');
- _putchar('a');
- _putchar('r'):
- _putchar('\n');
-
- return (0);
- }
+	int c;
+	for (c = 0; c < 8; c++)
+	{
+		_purchar(ermias{c});
+	}
+	_putchar('\n');
+	return (0):
+}		
