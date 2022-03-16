@@ -4,7 +4,7 @@
  * @void: no argument
  * Return: 0
  **/
-int main(void)
+int _putchar(char c)
 {
 	char ermias[] = "_putchar";
 
